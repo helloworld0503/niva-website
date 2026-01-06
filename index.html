@@ -1,284 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Niva – Modern Makhana Snacks for Gen Z</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
-<header class="header">
-  <div class="container header-inner">
-    <div class="logo">Niva</div>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/about-founder.html">About Founder</a>
-      <a href="/contact.html">Contact</a>
-    </nav>
-  </div>
-</header>
-
-<main>
-
-  <section class="hero">
-    <div class="container hero-inner">
-      <div class="hero-copy">
-        <h1>Snacks with intent. Rooted in tradition.</h1>
-        <p>Modern makhana crafted for clarity, balance, and everyday energy. Ancient Indian wisdom, reimagined for Gen Z and millennials.</p>
-        <div class="hero-ctas">
-          <a class="btn btn-secondary" href="/about-founder.html">Why Niva</a>
-        </div>
-      </div>
-      <div class="hero-art">
-        <img class="hero-image" src="images/man-woman.png" alt="Niva product pack" />
-      </div>
-    </div>
-  </section>
-
-  <section id="products" class="products-carousel">
-    <div class="container">
-      <h2 class="section-title">Our Snacks</h2>
-
-      <div class="carousel-container">
-        <button class="carousel-btn prev" aria-label="Previous product">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </button>
-
-        <div class="carousel-track" id="carouselTrack" tabindex="0" aria-live="polite">
-
-          <div class="product-card" data-product="baba">
-            <div class="product-media"><img src="images/baba.png" alt="BABA"></div>
-            <div class="product-head">
-              <h3 class="product-name baba">BABA</h3>
-              <p class="product-sub">Power with makhana</p>
-            </div>
-            <div class="product-actions">
-              <button class="learn-btn" data-modal="modal-baba">Learn more</button>
-            </div>
-          </div>
-
-          <div class="product-card" data-product="baby">
-            <div class="product-media"><img src="images/baby.png" alt="BABY"></div>
-            <div class="product-head">
-              <h3 class="product-name baby">BABY</h3>
-              <p class="product-sub">Peace with makhana</p>
-            </div>
-            <div class="product-actions">
-              <button class="learn-btn" data-modal="modal-baby">Learn more</button>
-            </div>
-          </div>
-
-          <div class="product-card" data-product="golu">
-            <div class="product-media"><img src="images/golu.png" alt="GOLU"></div>
-            <div class="product-head">
-              <h3 class="product-name golu">GOLU</h3>
-              <p class="product-sub">Goodness of jaggery</p>
-            </div>
-            <div class="product-actions">
-              <button class="learn-btn" data-modal="modal-golu">Learn more</button>
-            </div>
-          </div>
-
-          <div class="product-card" data-product="maska">
-            <div class="product-media"><img src="images/maska.png" alt="MASKA"></div>
-            <div class="product-head">
-              <h3 class="product-name maska">MASKA</h3>
-              <p class="product-sub">Butter & salt delight</p>
-            </div>
-            <div class="product-actions">
-              <button class="learn-btn" data-modal="modal-maska">Learn more</button>
-            </div>
-          </div>
-
-        </div>
-
-        <button class="carousel-btn next" aria-label="Next product">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </button>
-      </div>
-    </div>
-  </section>
-
-  <section class="lifestyle">
-    <div class="container lifestyle-inner">
-      <div class="lifestyle-copy">
-        <h2>Healthy, bold, snackable.</h2>
-        <p>From desk to gym bag, Niva makes clean snacking effortless. Crunch that satisfies, ingredients that respect your body, and flavors that feel like a reward — not a compromise.</p>
-      </div>
-      <div class="lifestyle-art">
-        <img class="founder-image" src="images/home-makhana.png" alt="Founder lifestyle art">
-      </div>
-    </div>
-  </section>
-
-  <section class="cta-banner">
-    <div class="container cta-inner">
-      <h3>Ready to snack smarter?</h3>
-      <p>Try Niva today — roasted, real, and relentlessly snackable.</p>
-      <a class="btn btn-primary" href="/contact.html">Contact now</a>
-    </div>
-  </section>
-
-</main>
-
-<footer class="footer">
-  <div class="container footer-inner">
-    <div class="footer-brand">
+  <header class="header">
+    <div class="container header-inner">
       <div class="logo">Niva</div>
-      <p>Modern makhana for conscious living.</p>
+      <nav>
+        <a href="/">Home</a>
+        <a href="about-founder.html">About Founder</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
-    <div class="footer-badges">
-      <div class="foot-badge">No MSG</div>
-      <div class="foot-badge">Zero cholesterol</div>
-      <div class="foot-badge">Roasted</div>
-    </div>
-  </div>
-  <div class="container footer-bottom">© 2026 Niva</div>
-</footer>
+  </header>
 
-<!-- Modals -->
-<div class="modal" id="modal-baba" role="dialog" aria-modal="true" aria-hidden="true">
-  <div class="modal-panel">
-    <button class="modal-close" aria-label="Close">&times;</button>
-    <div class="modal-content">
-      <div class="modal-media"><img src="images/baba.png" alt="BABA"></div>
-      <div class="modal-body">
-        <h3 class="baba">BABA — Power with makhana</h3>
-        <p>Crafted for strength and focus. Roasted makhana with savory spices for sustained energy and clarity.</p>
-        <ul>
-          <li>High protein and fiber</li>
-          <li>Roasted, not fried</li>
-          <li>Ayurvedic-inspired spices</li>
-        </ul>
+  <main>
+
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Snacks with intent. Rooted in tradition.</h1>
+          <p>Modern makhana crafted for clarity, balance, and everyday energy. Ancient Indian wisdom, reimagined for Gen
+            Z and millennials.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-secondary" href="/about-founder.html">Why Niva</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img class="hero-image" src="images/man-woman.png" alt="Niva product pack" />
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="products-carousel">
+      <div class="container">
+        <h2 class="section-title">Our Snacks</h2>
+
+        <div class="carousel-container">
+          <button class="carousel-btn prev" aria-label="Previous product">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </button>
+
+          <div class="carousel-track" id="carouselTrack" tabindex="0" aria-live="polite">
+
+            <div class="product-card" data-product="baba">
+              <div class="product-media"><img src="images/baba.png" alt="BABA"></div>
+              <div class="product-head">
+                <h3 class="product-name baba">BABA</h3>
+                <p class="product-sub">Power with makhana</p>
+              </div>
+              <div class="product-actions">
+                <button class="learn-btn" data-modal="modal-baba">Learn more</button>
+              </div>
+            </div>
+
+            <div class="product-card" data-product="baby">
+              <div class="product-media"><img src="images/baby.png" alt="BABY"></div>
+              <div class="product-head">
+                <h3 class="product-name baby">BABY</h3>
+                <p class="product-sub">Peace with makhana</p>
+              </div>
+              <div class="product-actions">
+                <button class="learn-btn" data-modal="modal-baby">Learn more</button>
+              </div>
+            </div>
+
+            <div class="product-card" data-product="golu">
+              <div class="product-media"><img src="images/golu.png" alt="GOLU"></div>
+              <div class="product-head">
+                <h3 class="product-name golu">GOLU</h3>
+                <p class="product-sub">Goodness of jaggery</p>
+              </div>
+              <div class="product-actions">
+                <button class="learn-btn" data-modal="modal-golu">Learn more</button>
+              </div>
+            </div>
+
+            <div class="product-card" data-product="maska">
+              <div class="product-media"><img src="images/maska.png" alt="MASKA"></div>
+              <div class="product-head">
+                <h3 class="product-name maska">MASKA</h3>
+                <p class="product-sub">Butter & salt delight</p>
+              </div>
+              <div class="product-actions">
+                <button class="learn-btn" data-modal="modal-maska">Learn more</button>
+              </div>
+            </div>
+
+          </div>
+
+          <button class="carousel-btn next" aria-label="Next product">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="lifestyle">
+      <div class="container lifestyle-inner">
+        <div class="lifestyle-copy">
+          <h2>Healthy, bold, snackable.</h2>
+          <p>From desk to gym bag, Niva makes clean snacking effortless. Crunch that satisfies, ingredients that respect
+            your body, and flavors that feel like a reward — not a compromise.</p>
+        </div>
+        <div class="lifestyle-art">
+          <img class="founder-image" src="images/home-makhana.png" alt="Founder lifestyle art">
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-banner">
+      <div class="container cta-inner">
+        <h3>Ready to snack smarter?</h3>
+        <p>Try Niva today — roasted, real, and relentlessly snackable.</p>
+        <a class="btn btn-primary" href="/contact.html">Contact now</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="logo">Niva</div>
+        <p>Modern makhana for conscious living.</p>
+      </div>
+      <div class="footer-badges">
+        <div class="foot-badge">No MSG</div>
+        <div class="foot-badge">Zero cholesterol</div>
+        <div class="foot-badge">Roasted</div>
+      </div>
+    </div>
+    <div class="container footer-bottom">© 2026 Niva</div>
+  </footer>
+
+  <!-- Modals -->
+  <div class="modal" id="modal-baba" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-panel">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <div class="modal-content">
+        <div class="modal-media"><img src="images/baba.png" alt="BABA"></div>
+        <div class="modal-body">
+          <h3 class="baba">BABA — Power with makhana</h3>
+          <p>Crafted for strength and focus. Roasted makhana with savory spices for sustained energy and clarity.</p>
+          <ul>
+            <li>High protein and fiber</li>
+            <li>Roasted, not fried</li>
+            <li>Ayurvedic-inspired spices</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-<div class="modal" id="modal-baby" role="dialog" aria-modal="true" aria-hidden="true">
-  <div class="modal-panel">
-    <button class="modal-close" aria-label="Close">&times;</button>
-    <div class="modal-content">
-      <div class="modal-media"><img src="images/baby.png" alt="BABY"></div>
-      <div class="modal-body">
-        <h3 class="baby">BABY — Peace with makhana</h3>
-        <p>Lightly seasoned makhana for calm and balance — a mindful snack for everyday moments.</p>
-        <ul>
-          <li>Gentle flavors</li>
-          <li>Low-calorie, nutrient-dense</li>
-          <li>Clean ingredients</li>
-        </ul>
+  <div class="modal" id="modal-baby" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-panel">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <div class="modal-content">
+        <div class="modal-media"><img src="images/baby.png" alt="BABY"></div>
+        <div class="modal-body">
+          <h3 class="baby">BABY — Peace with makhana</h3>
+          <p>Lightly seasoned makhana for calm and balance — a mindful snack for everyday moments.</p>
+          <ul>
+            <li>Gentle flavors</li>
+            <li>Low-calorie, nutrient-dense</li>
+            <li>Clean ingredients</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-<div class="modal" id="modal-golu" role="dialog" aria-modal="true" aria-hidden="true">
-  <div class="modal-panel">
-    <button class="modal-close" aria-label="Close">&times;</button>
-    <div class="modal-content">
-      <div class="modal-media"><img src="images/golu.png" alt="GOLU"></div>
-      <div class="modal-body">
-        <h3 class="golu">GOLU — Goodness of jaggery</h3>
-        <p>Roasted makhana coated with natural jaggery — a wholesome sweet snack for kids and families.</p>
-        <ul>
-          <li>Natural jaggery for sustained energy</li>
-          <li>Provides iron and minerals</li>
-          <li>Healthier alternative to candies</li>
-        </ul>
+  <div class="modal" id="modal-golu" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-panel">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <div class="modal-content">
+        <div class="modal-media"><img src="images/golu.png" alt="GOLU"></div>
+        <div class="modal-body">
+          <h3 class="golu">GOLU — Goodness of jaggery</h3>
+          <p>Roasted makhana coated with natural jaggery — a wholesome sweet snack for kids and families.</p>
+          <ul>
+            <li>Natural jaggery for sustained energy</li>
+            <li>Provides iron and minerals</li>
+            <li>Healthier alternative to candies</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-<div class="modal" id="modal-maska" role="dialog" aria-modal="true" aria-hidden="true">
-  <div class="modal-panel">
-    <button class="modal-close" aria-label="Close">&times;</button>
-    <div class="modal-content">
-      <div class="modal-media"><img src="images/maska.png" alt="MASKA"></div>
-      <div class="modal-body">
-        <h3 class="maska">MASKA — Butter & salt delight</h3>
-        <p>Lightly buttered and salted makhana for a savory, craveable crunch — a cleaner alternative to chips.</p>
-        <ul>
-          <li>Buttery mouthfeel</li>
-          <li>Low-calorie, antioxidant-rich</li>
-          <li>Perfect for sharing</li>
-        </ul>
+  <div class="modal" id="modal-maska" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-panel">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <div class="modal-content">
+        <div class="modal-media"><img src="images/maska.png" alt="MASKA"></div>
+        <div class="modal-body">
+          <h3 class="maska">MASKA — Butter & salt delight</h3>
+          <p>Lightly buttered and salted makhana for a savory, craveable crunch — a cleaner alternative to chips.</p>
+          <ul>
+            <li>Buttery mouthfeel</li>
+            <li>Low-calorie, antioxidant-rich</li>
+            <li>Perfect for sharing</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-<script>
-(function () {
-  const track = document.getElementById('carouselTrack');
-  const prevBtn = document.querySelector('.carousel-btn.prev');
-  const nextBtn = document.querySelector('.carousel-btn.next');
-  const cards = Array.from(track.querySelectorAll('.product-card'));
-  const gap = 22;
-  let cardWidth = cards[0] ? cards[0].getBoundingClientRect().width : 300;
-  let autoTimer = null;
-  const interval = 4000;
-  let hovering = false;
+  <script>
+    (function () {
+      const track = document.getElementById('carouselTrack');
+      const prevBtn = document.querySelector('.carousel-btn.prev');
+      const nextBtn = document.querySelector('.carousel-btn.next');
+      const cards = Array.from(track.querySelectorAll('.product-card'));
+      const gap = 22;
+      let cardWidth = cards[0] ? cards[0].getBoundingClientRect().width : 300;
+      let autoTimer = null;
+      const interval = 4000;
+      let hovering = false;
 
-  function updateCardWidth() { cardWidth = cards[0] ? cards[0].getBoundingClientRect().width : 300; }
-  window.addEventListener('resize', updateCardWidth);
+      function updateCardWidth() { cardWidth = cards[0] ? cards[0].getBoundingClientRect().width : 300; }
+      window.addEventListener('resize', updateCardWidth);
 
-  nextBtn.addEventListener('click', () => track.scrollBy({ left: cardWidth + gap, behavior: 'smooth' }));
-  prevBtn.addEventListener('click', () => track.scrollBy({ left: - (cardWidth + gap), behavior: 'smooth' }));
+      nextBtn.addEventListener('click', () => track.scrollBy({ left: cardWidth + gap, behavior: 'smooth' }));
+      prevBtn.addEventListener('click', () => track.scrollBy({ left: - (cardWidth + gap), behavior: 'smooth' }));
 
-  function startAuto() {
-    stopAuto();
-    autoTimer = setInterval(() => {
-      if (hovering) return;
-      const max = track.scrollWidth - track.clientWidth;
-      if (Math.round(track.scrollLeft) >= Math.round(max - (cardWidth + gap) / 2)) {
-        track.scrollTo({ left: 0, behavior: 'smooth' });
-      } else {
-        track.scrollBy({ left: cardWidth + gap, behavior: 'smooth' });
+      function startAuto() {
+        stopAuto();
+        autoTimer = setInterval(() => {
+          if (hovering) return;
+          const max = track.scrollWidth - track.clientWidth;
+          if (Math.round(track.scrollLeft) >= Math.round(max - (cardWidth + gap) / 2)) {
+            track.scrollTo({ left: 0, behavior: 'smooth' });
+          } else {
+            track.scrollBy({ left: cardWidth + gap, behavior: 'smooth' });
+          }
+        }, interval);
       }
-    }, interval);
-  }
-  function stopAuto() { if (autoTimer) { clearInterval(autoTimer); autoTimer = null; } }
+      function stopAuto() { if (autoTimer) { clearInterval(autoTimer); autoTimer = null; } }
 
-  track.addEventListener('mouseenter', () => { hovering = true; stopAuto(); });
-  track.addEventListener('mouseleave', () => { hovering = false; startAuto(); });
-  track.addEventListener('keydown', (e) => { if (e.key === 'ArrowRight') nextBtn.click(); if (e.key === 'ArrowLeft') prevBtn.click(); });
+      track.addEventListener('mouseenter', () => { hovering = true; stopAuto(); });
+      track.addEventListener('mouseleave', () => { hovering = false; startAuto(); });
+      track.addEventListener('keydown', (e) => { if (e.key === 'ArrowRight') nextBtn.click(); if (e.key === 'ArrowLeft') prevBtn.click(); });
 
-  updateCardWidth();
-  startAuto();
+      updateCardWidth();
+      startAuto();
 
-  // Modal logic
-  const learnBtns = document.querySelectorAll('.learn-btn');
-  const modals = document.querySelectorAll('.modal');
-  const closeBtns = document.querySelectorAll('.modal-close');
+      // Modal logic
+      const learnBtns = document.querySelectorAll('.learn-btn');
+      const modals = document.querySelectorAll('.modal');
+      const closeBtns = document.querySelectorAll('.modal-close');
 
-  function openModal(id) {
-    const m = document.getElementById(id);
-    if (!m) return;
-    m.setAttribute('aria-hidden', 'false');
-    m.classList.add('open');
-    document.body.style.overflow = 'hidden';
-    stopAuto();
-  }
-  function closeModal(m) {
-    if (!m) return;
-    m.setAttribute('aria-hidden', 'true');
-    m.classList.remove('open');
-    document.body.style.overflow = '';
-    startAuto();
-  }
+      function openModal(id) {
+        const m = document.getElementById(id);
+        if (!m) return;
+        m.setAttribute('aria-hidden', 'false');
+        m.classList.add('open');
+        document.body.style.overflow = 'hidden';
+        stopAuto();
+      }
+      function closeModal(m) {
+        if (!m) return;
+        m.setAttribute('aria-hidden', 'true');
+        m.classList.remove('open');
+        document.body.style.overflow = '';
+        startAuto();
+      }
 
-  learnBtns.forEach(btn => btn.addEventListener('click', () => openModal(btn.dataset.modal)));
-  closeBtns.forEach(btn => btn.addEventListener('click', (e) => closeModal(btn.closest('.modal'))));
-  modals.forEach(m => {
-    m.addEventListener('click', (e) => { if (e.target === m) closeModal(m); });
-    m.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(m); });
-  });
+      learnBtns.forEach(btn => btn.addEventListener('click', () => openModal(btn.dataset.modal)));
+      closeBtns.forEach(btn => btn.addEventListener('click', (e) => closeModal(btn.closest('.modal'))));
+      modals.forEach(m => {
+        m.addEventListener('click', (e) => { if (e.target === m) closeModal(m); });
+        m.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(m); });
+      });
 
-})();
-</script>
+    })();
+  </script>
 
 </body>
+
 </html>
